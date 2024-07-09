@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm p-4" style="background-color: #4d148c;">
+        <a href="#"><img src="https://www.fedex.com/content/dam/fedex-com/logos/logo.png" alt="FedEx" width="100em"
+                height="30em" class="ml-5"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span><big><i class="bi bi-list text-white"></i></big>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav mr-auto ml-5">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Shipping <i class="bi bi-chevron-down"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Tracking <i class="bi bi-chevron-down"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Support <i class="bi bi-chevron-down"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Account <i class="bi bi-chevron-down"></i></a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-5">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="./login.html">Signup/Log In&nbsp;&nbsp;<i
+                            class="bi bi-person-circle"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white ml-2" href="#"><i class="bi bi-search"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container">
+        <div class="display-4 my-5 text-center">
+            Enter your user ID and password to log in
+        </div>
+
+       <section class="row my-5">
+            <section class="col text-center">
+                <h4><a href="" style="color: #007ab7;">CREATE A USER ID FOR AN EXISTING ACCOUNT</a></h4>
+            </section>
+        </section>
+
+       <form>
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="form-group">
+                        <label for="email" class="font-weight-bold">EMAIL</label>
+                        <input type="email" class="form-control font-weight-bold p-4" id="email"
+                            aria-describedby="emailhelp" placeholder="EMAIL">
+                        <small id="emailhelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="form-group">
+                        <label for="password" class="font-weight-bold">PASSWORD</label>
+                        <input type="password" class="form-control w-100 w-lg-75 font-weight-bold p-4" id="password"
+                            aria-describedby="passhelp" placeholder="PASSWORD">
+                        <small id="passhelp" class="form-text text-muted">We'll never share your password with anyone
+                            else.</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="form-check text-center">
+                        <input type="checkbox" class="form-check-input" id="formc">
+                        <label for="formc" class="form-check-label font-weight-light">Remember my user ID.</label>
+                    </div>
+                </div>
+            </div>        
+            <div class="text-center">    
+            <button type="submit" style="background-color: #ff6200; border: 0;"
+                        class="px-5 py-3 text-white font-weight-bold">
+                        <h4>LOG IN</h4>
+                    </button>
+            </div>
+        </form>
+
+        <div class="text-center mt-3 mb-5 row">
+            <div class="col">
+                <h4><a href="" style="color: #007ab7;">FORGOT YOUR USER ID OR PASSWORD?</a></h4>
+            </div>
+        </div>
+
+        <div class=" row text-center">
+            <div class="col">
+                <h3 class="font-weight-light">Need help?</h3>
+            </div>
+        </div>
+
+        <div class="text-center mt-3 mb-5 row">
+            <div class="col">
+                <h4><a href="" style="color: #007ab7;">CUSTOMER SUPPORT</a></h4>
+            </div>
+        </div>
+
+      <div class="mt-5">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div >
+                        <h6 style="color: #4d148c;">OUR COMPANY</h6><br>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <a href="#" class="text-dark">About FedEx</a>
+                        <a href="#" class="text-dark">International Holiday Schedule</a>
+                        <a href="#" class="text-dark">Conditions of Carriage</a>
+                        <a href="#" class="text-dark">Binding Corporate Rules</a>
+                        <a href="#" class="text-dark">MEISA Newsroom</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <h6 style="color: #4d148c;">NEW CUSTOMER</h6><br>
+                    <div class="d-flex flex-column">
+                        <a href="#" class="text-dark">Open an Account</a>
+                        <a href="#" class="text-dark">Register for a Login</a>
+                        <a href="#" class="text-dark">New Customer Center</a>
+                        <br>
+                        <hr class="text-dark" style="width: 100%; height: auto;">
+                        <br>
+                        <h6>CUSTOMER SUPPORT</h6><br>
+                        <a href="#" class="text-dark">Contact FedEx</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <h6 style="color: #4d148c;">OUR COMPANY</h6><br>
+                    <div class="d-flex flex-column">
+                        <a href="#" class="text-dark">Sign up for eNews</a>
+                        <a href="#" class="text-dark">FedEx Developer Portal</a>
+                        <a href="#" class="text-dark">Fuel Surcharge</a>
+                        <a href="#" class="text-dark">Rates & Surcharges</a>
+                        <a href="#" class="text-dark">Resources</a>
+                        <a href="#" class="text-dark">FedEx Locations</a>
+                        <a href="#" class="text-dark">FedEx Business Insights</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <h6 style="color: #4d148c;">LANGUAGE</h6><br>
+                    <div class="d-flex flex-column">
+                        <a href="#" class="text-dark"><i class="fa fa-globe" aria-hidden="true"></i>&nbsp;India</a>
+                        <br>
+                        <select class="p-4">
+                            <option value="English">English</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <h6>FOLLOW FEDEX &nbsp;
+                        <i class="fa fa-adjust" aria-hidden="true"></i>&nbsp;
+                        <i class="fa fa-adjust" aria-hidden="true"></i>&nbsp;
+                        <i class="fa fa-adjust" aria-hidden="true"></i>&nbsp;
+                        <i class="fa fa-adjust" aria-hidden="true"></i>
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="row text-white mt-5 p-3" style="background-color: #4d148c;">
+        <div class="col-lg-6">
+            <h6>© FedEx 1995-2024</h6>
+        </div>
+        <div class="col-lg-3 offset-lg-3">
+            <h5>Terms of Use | Security and Privacy</h5>
+        </div>
+    </div>
+</body>
+
+</html>
