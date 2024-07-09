@@ -15,46 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <style>
-        .banner {
-            background: url(https://scontent.fixm3-1.fna.fbcdn.net/v/t39.30808-6/310595679_5794863067225261_828819977194575051_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=LkRNWv-lrhkQ7kNvgGDcD4L&_nc_ht=scontent.fixm3-1.fna&oh=00_AYBRkY_X6TQiMQoSl6lE7Reu-OF9-MfDZoa8veQZdX_OvA&oe=667D6FA7);
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 535px;
-            width: 100vw;
-        }
-
-
-        .box {
-            background-color: white;
-            height: 150px;
-            width: 150px;
-            border:1px solid #4d148c;
-        }
-
-        .box1 {
-            background-color: #4d148c;
-            height: 175px;
-            width: 175px;
-        }   
-        .b1,
-        .but {
-            background-color: #ff6200;
-        }
-
-        .textdec {
-            text-decoration: none;
-        }
-
-        .textdec :hover {
-
-            cursor: pointer;
-        }
-
-        .learnmore :hover {
-            cursor: pointer;
-        }
-    </style>
+ 
 </head>
 
 <body>
@@ -86,20 +47,25 @@
         </ul>
         <ul class="navbar-nav ml-5">                                    
             <li class="nav-item">
-                <a class="nav-link text-white" href="#">Signup/Log In&nbsp;&nbsp;<i class="bi bi-person-circle"></i></a>
+                <a class="nav-link text-white" href="./login.html">Signup/Log In&nbsp;&nbsp;<i class="bi bi-person-circle"></i></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white ml-2" href="#"><i class="bi bi-search"></i></a>
+                <a class="nav-link text-white ml-2" href="signup.html"><i class="bi bi-search"></i></a>
             </li> 
         </ul>
-    </nav>
+   
 </div>
+</nav>
 
 <!--First Banner - First Banner - First Banner - First Banner - First Banner - First Banner - First Banner -->
 
 <!--Welcome to FedEx-->
 
-<main class="banner">
+<main style="background: url(https://scontent.fixm3-1.fna.fbcdn.net/v/t39.30808-6/310595679_5794863067225261_828819977194575051_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=LkRNWv-lrhkQ7kNvgGDcD4L&_nc_ht=scontent.fixm3-1.fna&oh=00_AYBRkY_X6TQiMQoSl6lE7Reu-OF9-MfDZoa8veQZdX_OvA&oe=667D6FA7);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 535px;
+            width: 100vw;" >
     <section class="row ">
             <section class="col-12 text-center my-5">
             <h1 class=" text-white font-weight-light">Welcome to FedEx</h1>
@@ -111,13 +77,21 @@
       
         <section class="col-md-12 mb-5">
     <div  role="button" class="d-flex justify-content-center">
-        <div class="box text-center mt-3 font-weight-bold">
+        <div class="text-center mt-3 font-weight-bold" style=" background-color: white;
+            height: 150px;
+            width: 150px;
+            border:1px solid #4d148c;">
             <h1  class="my-3"><i class="bi bi-phone"></i></h1>RATE & TRANSIT TIMES
         </div>
-    <div   class="box1 text-center text-white font-weight-bold">
+    <div   class="text-center text-white font-weight-bold" style=" background-color: #4d148c;
+            height: 175px;
+            width: 175px;">
         <h1  class="my-4"><i class="bi bi-truck"></i></h1>TRACK
     </div>
-        <div class="box text-center mt-3 font-weight-bold">
+        <div class="text-center mt-3 font-weight-bold" style=" background-color: white;
+            height: 150px;
+            width: 150px;
+            border:1px solid #4d148c;">
         <h1   class="my-4"><i class="bi bi-truck"></i></h1>SHIP
         </div>
     </div>
@@ -130,10 +104,10 @@
             <form class="d-flex form-row"> 
                 <div class="form-group col-lg-3 offset-lg-4">                    
                     <input type="text" class="form-control w-100 font-weight-bold" id="formGroupExampleInput" placeholder="TRACKING ID">
-                 <label for="formGroupExampleInput"><a href="#" style="color:#4d148c;" class=" font-weight-bold text-decoration-none" >MULTIPLE TRACKING NUMBERS | NEED HELP</a></label>
+                 <a href="#" style="color:#4d148c;" class="       font-weight-bold text-decoration-none" >MULTIPLE TRACKING NUMBERS | NEED HELP</a>
                 </div>
                 <div class="form-group col-lg-auto">
-                <button type="submit" class="btn font-weight-bold w-100 w-lg-25  b1 text-white  font-weight-bold">TRACK</button>
+                <button type="submit" class="btn font-weight-bold w-100 text-white  font-weight-bold" style=" background-color: #ff6200;">TRACK</button>
                 </div>
             </form>
         
